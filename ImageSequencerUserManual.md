@@ -1,6 +1,6 @@
 Image Sequencer 
 User Manual Version 0.1 
-May 26, 2019
+July 2, 2019
 ======================
 
 ## Introduction:
