@@ -36,12 +36,12 @@ Coordinates in (X,Y), which is (0,0) is located at the top left of the image ![g
 *(processing time vs file size)*
 ## Image Modules:
 
-Image Sequencer uses modules that perform a variety of step-by-step image processing tasks.  Figure X describes the general workflow.
+Image Sequencer uses modules that perform a variety of step-by-step image processing tasks.  Figure 3 describes the general workflow.
 
-This section describes each module and a general implementation example  Most examples used Figure X as the input reference image.
+This section describes each module and a general implementation example  Most examples used Figure 4 as the input reference image.
 ![workflow](https://lh3.googleusercontent.com/XE_twkHy8uxZ6jycIddQlMxJF91AbU29pJPILcRcolwiiaNJAUPrJhU_PAJYmVGGoHcJ7aOSTNFR)
-Figure X Reference Image:
-![Figure X Reference Image](https://lh3.googleusercontent.com/A98oLhF19A1li9ugUa9lvyOJXzKang6nwAn61E_Zwf6NZ3Tqw3OsuuHqUbbb2MnWD_eTL140rRJj )
+Figure 4 Reference Image:
+![Figure 4 Reference Image](https://lh3.googleusercontent.com/A98oLhF19A1li9ugUa9lvyOJXzKang6nwAn61E_Zwf6NZ3Tqw3OsuuHqUbbb2MnWD_eTL140rRJj )
 Additional information on the modules and other operating modes can be found at the Image Sequencer GitHub site. 
 
  - [https://github.com/publiclab/image-sequencer/tree/main/docs](https://github.com/publiclab/image-sequencer/tree/main/docs)
