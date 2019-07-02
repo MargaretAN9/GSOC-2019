@@ -1,4 +1,4 @@
-**Image Sequencer 
+**Image Sequencer** 
 User Manual Version 0.2 
 July 2, 2019
 ======================
