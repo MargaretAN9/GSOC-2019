@@ -4,28 +4,44 @@ July 2, 2019
 ======================
 1. [Introduction](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#introduction)
 2. [Specifications](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#specifications)
-3. ...[Input Image Format Option](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#input-image-format-option)
-4. ...[Output Options](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#output-options)
-5. ...[Color Scheme - RGBA](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#color-scheme--rgba)
-6. ...[Image Coordinates](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#image-coordinates)
+3. [Input Image Format Option](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#input-image-format-option)
+4. [Output Options](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#output-options)
+5. [Color Scheme - RGBA](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#color-scheme--rgba)
+6. [Image Coordinates](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#image-coordinates)
 7. [Processing Environment](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#processing-environment)
 8. [Image Modules](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#image-modules)
-9. 
-10. 
-11. 
-12. 
-13. 
-14. 
-15. 
-16. ...
-17. ...
-18. ...
-19. ...
-20. ...
-21. ...
-22. ...
-23. ...
-24. ...
+9. [Add QR Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#add-qr-module)
+10. [Average Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#average-module)
+11. [Blend Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#blend-module)
+12. [Blur Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#blur-module)
+13. [Brightness Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#brightness-module)
+14. [Channel Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#channel-module)
+15. [Color Temperature](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#color-temperature)
+16. [Color Bar Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#color-bar-module)
+17. [Colormap Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#colormap-module)
+18. [Contrast Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#contrast-module)
+19. [Convolution Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#convolution-module)
+20. [Crop Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#crop-module)
+21. [Decode QR Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#decodeqr-module)
+22. [Detect Edges](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#detect-edges)
+23. [Dither Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#dither-module)
+24. [Draw Rectangle Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#draw-rectangle-module)
+25. [Dynamic Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#dynamic-module)
+26. [Exposure](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#exposure)
+27. 
+28. 
+29. 
+30. 
+31. 
+32. 
+33. 
+34. 
+35. 
+36. 
+37. 
+38. 
+39. 
+40. 
 
 ## Introduction:
 This manual provides instruction for the web browser applications of Image Sequencer.  The user manual consists of specifications, a description of the modules and an applications section which describes how the modules, when combined, can be used for different types of image analysis.   
