@@ -69,12 +69,13 @@ This manual provides instruction for the web browser applications of Image Seque
 Image sequencer is available at: https://sequencer.publiclab.org/examples/#steps=
 ## Specifications:
 ### Input Image Format Options:
-IMage sequencer supports the following options an input images:
-..*Jpeg
-..*jpg
-..*png
-  *png
-  *GIF
+Image sequencer supports the following options an input images:
+  * Jpeg
+  * jpg
+  * png
+  * GIF
+  
+  
 png
 Gif
 canvas
