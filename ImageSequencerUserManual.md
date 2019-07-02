@@ -4,7 +4,7 @@ July 2, 2019
 ======================
 1. [Introduction](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#introduction)
 2. [Specifications](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#specifications)
-  #3. [Input Image Format Option](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#input-image-format-option)
+  2.1. [Input Image Format Option](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#input-image-format-option)
   4. [Output Options](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#output-options)
   5. [Color Scheme - RGBA](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#color-scheme--rgba)
 6. [Image Coordinates](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#image-coordinates)
