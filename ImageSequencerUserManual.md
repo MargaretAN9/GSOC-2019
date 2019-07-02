@@ -14,10 +14,10 @@ July 2, 2019
 3. [Image Modules](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#image-modules)  
   3.1  [Add QR Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#add-qr-module)  
   3.2  [Average Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#average-module)
-  3.3  [Blend Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#blend-module)
-  12. [Blur Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#blur-module)
-  13. [Brightness Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#brightness-module)
-  14. [Channel Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#channel-module)
+  3.3  [Blend Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#blend-module)  
+  3.4 [Blur Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#blur-module)  
+  3.5 [Brightness Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#brightness-module)   
+  3.6 [Channel Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#channel-module)  
   15. [Color Temperature](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#color-temperature)
   16. [Color Bar Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#color-bar-module)
   17. [Colormap Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#colormap-module)
@@ -68,7 +68,7 @@ This manual provides instruction for the web browser applications of Image Seque
 
 Image sequencer is available at: https://sequencer.publiclab.org/examples/#steps=
 ## Specifications:
-### Input Image Format options:
+### Input Image Format Options:
 Jpg *(freezes and locks up )*
 Jpeg
 png
