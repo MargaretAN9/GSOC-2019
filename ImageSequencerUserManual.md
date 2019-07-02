@@ -4,12 +4,28 @@ July 2, 2019
 ======================
 1. [Introduction](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#introduction)
 2. [Specifications](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#specifications)
-3. [Input Image Format Option](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#input-image-format-option)
-4. [Output Options](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#output-options)
-5. [Color Scheme - RGBA](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#color-scheme--rgba)
-6. [Image Coordinates](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#image-coordinates)
+3. ...[Input Image Format Option](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#input-image-format-option)
+4. ...[Output Options](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#output-options)
+5. ...[Color Scheme - RGBA](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#color-scheme--rgba)
+6. ...[Image Coordinates](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#image-coordinates)
 7. [Processing Environment](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#processing-environment)
 8. [Image Modules](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#image-modules)
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+15. 
+16. ...
+17. ...
+18. ...
+19. ...
+20. ...
+21. ...
+22. ...
+23. ...
+24. ...
 
 ## Introduction:
 This manual provides instruction for the web browser applications of Image Sequencer.  The user manual consists of specifications, a description of the modules and an applications section which describes how the modules, when combined, can be used for different types of image analysis.   
