@@ -74,18 +74,21 @@ Image sequencer supports the following options an input images:
   * jpg
   * png
   * GIF
+  * canvas
   
+ Maximumn Image Size:
+  * lesss than 10MB is recommended
   
-png
-Gif
-canvas
-*Max Image Size: 1Mb? (processing time vs file size)*
-Bit depth?
-Color and black/white
-*Maximum  length and width size?*
+  Color and black/white images are supported
+  
+  8 bit depth
+ 
 ### Output Options:
-PNG
-GIF of sequences 
+Image sequencer supports the following options an input images:
+  * PNG
+  * GIF (provides images thru each sequence)   
+
+ 
 ### Color Scheme – RGBA:
 Color is represented as as ‘tuple’ in (R,G,B) format. Each color channel has a value between 0 and 255.
 black is: (0,0,0),
