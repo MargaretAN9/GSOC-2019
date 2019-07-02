@@ -2,6 +2,7 @@ Image Sequencer
 User Manual Version 0.2 
 July 2, 2019
 ======================
+1. [Introduction](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#introduction)
 
 ## Introduction:
 This manual provides instruction for the web browser applications of Image Sequencer.  The user manual consists of specifications, a description of the modules and an applications section which describes how the modules, when combined, can be used for different types of image analysis.   
