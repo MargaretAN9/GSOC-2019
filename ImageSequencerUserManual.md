@@ -47,14 +47,8 @@ July 2, 2019
 43. [Threshold](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#threshold)
 44. [Tint](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#tint)
 45. [White Balance](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#white-balance)
-46. 
-47. 
-48. 
-49. 
-50. 
-51. 
-52. 
-53. 
+46. [Applications](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#applications)
+47. [NDVI (NIR and Red) with Color Bar](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#ndvi-nir-and-red-with-color-bar)
 
 ## Introduction:
 This manual provides instruction for the web browser applications of Image Sequencer.  The user manual consists of specifications, a description of the modules and an applications section which describes how the modules, when combined, can be used for different types of image analysis.   
