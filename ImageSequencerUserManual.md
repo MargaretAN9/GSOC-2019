@@ -1,10 +1,12 @@
-Image Sequencer 
+**Image Sequencer 
 User Manual Version 0.2 
 July 2, 2019
 ======================
+
+
 1. [Introduction](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#introduction)
 2. [Specifications](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#specifications)
- -3. [Input Image Format Option](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#input-image-format-option)
+  3. [Input Image Format Option](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#input-image-format-option)
   4. [Output Options](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#output-options)
   5. [Color Scheme - RGBA](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#color-scheme--rgba)
 6. [Image Coordinates](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#image-coordinates)
@@ -51,7 +53,20 @@ July 2, 2019
   47. [NDVI (NIR and Red) with Color Bar](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#ndvi-nir-and-red-with-color-bar)
 
 ## Introduction:
+Image sequencer is a sequential image processing system inspired by storybaords.   The storybaord process permits graphic editing by a series of modules tailored for different image procesing applications.  
+
+Image Sequencer is different from other image processing systems because it's non-destructive: instead of modifying the original image, it creates a new image at each step in a sequence. This is because it:
+
+--produces a legible trail of operations, to "show your work" for evidential, educational, or reproducibility reasons
+--makes the creation of new tools or "modules" simpler -- each must accept an input image, and produce an output image
+--allows many images to run through the same sequence of steps
+--works identically in the browser, on Node.js, and on the command line
+
+
 This manual provides instruction for the web browser applications of Image Sequencer.  The user manual consists of specifications, a description of the modules and an applications section which describes how the modules, when combined, can be used for different types of image analysis.   
+
+
+Image sequencer is available at: https://sequencer.publiclab.org/examples/#steps=
 ## Specifications:
 ### Input Image Format options:
 Jpg *(freezes and locks up )*
