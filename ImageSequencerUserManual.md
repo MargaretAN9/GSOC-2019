@@ -28,20 +28,33 @@ July 2, 2019
 24. [Draw Rectangle Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#draw-rectangle-module)
 25. [Dynamic Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#dynamic-module)
 26. [Exposure](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#exposure)
-27. 
-28. 
-29. 
-30. 
-31. 
-32. 
-33. 
-34. 
-35. 
-36. 
-37. 
-38. 
-39. 
-40. 
+27. [Fisheye Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#fisheyegl-module)
+28. [Flip Image Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#flipimage-module)
+29. [Gamma Correction Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#gamma-correction-module)
+30. [Gradient Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#gradient-module)
+31. [Grid Overlay](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#grid-overlay)
+32. [Histrogram Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#histogram-module)
+33. [Import Image Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#import-image-module)
+34. [Invert Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#invert-module)
+35. [NDVI Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#ndvi-module)
+36. [NDVI Colormap Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#ndvi-colormap-module)
+37. [Overlay Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#overlay-module)
+38. [Paint Bucket Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#paint-bucket-module)
+39. [Resize Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#resize-module)
+40. [Replace Color Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#replacecolor-module)
+41. [Rotate Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#rotate-module)
+42. [Text Overlay](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#text-overlay)
+43. [Threshold](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#threshold)
+44. [Tint](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#tint)
+45. [White Balance](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#white-balance)
+46. 
+47. 
+48. 
+49. 
+50. 
+51. 
+52. 
+53. 
 
 ## Introduction:
 This manual provides instruction for the web browser applications of Image Sequencer.  The user manual consists of specifications, a description of the modules and an applications section which describes how the modules, when combined, can be used for different types of image analysis.   
