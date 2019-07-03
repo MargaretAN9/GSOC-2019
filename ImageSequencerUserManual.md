@@ -218,10 +218,12 @@ Where options is an object with the following property:
 -   temperature : temperature between 0 - 40,000 kelvin (default 6000)
 
 Color temperature AT 100, 1000, 10,000, and 30000:
+
 ![100](https://lh3.googleusercontent.com/B1GiDQ6iHvBM0nZ3eUxD_Mt8Om7kMKLyI-TSep-Mplchds7snjIbBhUEV2B0x6JgBmK-eUcGYKxi)
 ![1000](https://lh3.googleusercontent.com/KLkMrUB0Y3gtsGoDNkf5ZGdrLzMtBxhMh3ipcFn5m1ERxcrzwWTBZqf7ctXRwFJhNCDqQgJ55PaV)
 ![10000](https://lh3.googleusercontent.com/hdGOEDsm9y7emleDeJS7TW3OOMUSKLGRObhvJuZMXYK3Q8nC0way7AlOM_YpH_t3EI5daFlJhF-D)
 ![100000](https://lh3.googleusercontent.com/_67T5U1AMUUed9E1Z_aIVO4LIUU9wT8JEMfRZIb3MyUIuq9euMPsQ2gGpNbbPGM6d6fNjixN523v)
+
 ### Color-bar-module:
 
 This module is used for displaying an image with a color bar.
