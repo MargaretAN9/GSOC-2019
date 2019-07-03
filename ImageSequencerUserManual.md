@@ -621,6 +621,9 @@ Usage:
 ## Applications:
 This section demonstrates how Image Sequencer modules can be applied for different applications.
 ### NDVI (NIR and Red) with Color Bar:
+The Image Sequence processing steps used to process NDVI images are shown below. Steps include: 1) Choose file #1 (NIR image), 2)Choose file #2 (Red band image), 3)blend, 4) NDVI (red), 5) Colormap (greyscale). 
+
+
 ![ndviapp](https://lh3.googleusercontent.com/vSPttpkGXDBja4qcU5Y_mmZujhuItbTP_1hoqxbNuqXn5dG2cX7j4RiOrdQJSFDlcxFOswOgh3jI)
 
 
