@@ -59,9 +59,14 @@ How to use OpenCV in JavaScript
  1. Each IDE has different ways of opening a live server.  Once running, your browser of choice should look like the following: 
  
  ![show](https://lh3.googleusercontent.com/bb2w8NEjbPY_5uavP4G1eTsE9sI_mLGAbdDTwpARRCvCYp1W5ZjxX6qOTBGu9t4YVHJR8e3dh0qc)
- 2. Click the "Browse" button.  This will open up the File Explorer. ![browsw](https://lh3.googleusercontent.com/pBvfKvhyjpk2oh8g8C-TuQ-tKVWZvSVx1iZv19x_wg3nmsMBxWHKpAmep9uxaNi0EBkarpOb-65e)
+ 
+ 2. Click the "Browse" button.  This will open up the File Explorer. 
+ ![browsw](https://lh3.googleusercontent.com/pBvfKvhyjpk2oh8g8C-TuQ-tKVWZvSVx1iZv19x_wg3nmsMBxWHKpAmep9uxaNi0EBkarpOb-65e)
+ 
  3. Select the image file of your choice and then click the "Open" button on the bottom right.  In this example, I am selecting RGB.png.
- 4. The image you selected and the grey scale version of it should appear side by side in your browser. Remember that the grey scale image will be smaller since it is resized in the code. ![side](https://lh3.googleusercontent.com/lFe8YYf1HXKe7QZxENAEEnZnUyaBUFjaMNVGL2JEOJap7CBtsxljFTvwnijoxm1GDWF0PGJm-RFh)
+ 
+ 4. The image you selected and the grey scale version of it should appear side by side in your browser. Remember that the grey scale image will be smaller since it is resized in the code. 
+ ![side](https://lh3.googleusercontent.com/lFe8YYf1HXKe7QZxENAEEnZnUyaBUFjaMNVGL2JEOJap7CBtsxljFTvwnijoxm1GDWF0PGJm-RFh)
 **If you want to make the grey scale image the same size as your original image, go back to the code and delete the following two lines:*
 
 		    let dsize = new cv.Size(300, 300);  
