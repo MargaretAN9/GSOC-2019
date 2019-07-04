@@ -19,7 +19,7 @@ How to use OpenCV in JavaScript
 	        <title>OPENCV_JSTEST</title>  
 	        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
 	        <link rel="stylesheet" type="text/css" media="screen" href="main.css"> 
-	        // the opencv.js file is very large, so we must load it asynchronously.
+	        //  load file asynchronously.
 	         <script async src="js/opencv.js"></script> 
          </head> 
          <body>
@@ -42,6 +42,7 @@ How to use OpenCV in JavaScript
 		     },false);
 		     
 		     // Whenever an image loads, we will load the opencv.js file
+		     //now we start the opencv commands
 		     img_input.onload = function(){  
 			     let mat = cv.imread(img_input);
 			     // This morphs you input image into a grey scale image
