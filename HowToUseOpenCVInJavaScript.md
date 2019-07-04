@@ -35,13 +35,12 @@ How to use OpenCV in JavaScript
 		     let img_input = document.getElementById('input_image');  
 		     let file_input = document.getElementById('file_input');
 	
-		     // Whenever there is a change in the input, we need tp update the loaded image
+		     // Whenever there is a change in the input, we need to update the loaded image
 		     file_input.addEventListener('change',(e)=> {  
 			     // Change the source to the new file
 			     img_input.src = URL.createObjectURL(e.target.files[0])
 		     },false);
 		     
-		     // Whenever an image loads, we will load the opencv.js file
 		     //now we start the opencv commands
 		     img_input.onload = function(){  
 			     let mat = cv.imread(img_input);
