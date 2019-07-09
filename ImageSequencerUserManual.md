@@ -69,7 +69,7 @@ This manual provides instruction for the web browser applications of Image Seque
 Image sequencer is available at: https://sequencer.publiclab.org/examples/#steps=
 ## Specifications:
 ### Input Format Options:
-Image sequencer supports the following options an input images:
+Image sequencer supports the following options as input images:
   * Jpeg
   * jpg
   * png
@@ -84,7 +84,7 @@ Image sequencer supports the following options an input images:
   8 bit depth
  
 ### Output Options:
-Image sequencer supports the following options an input images:
+Image sequencer supports the following options as output images:
   * PNG
   * GIF (provides images thru each sequence)   
 
