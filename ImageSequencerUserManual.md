@@ -97,9 +97,8 @@ red is (255,0,0).
 blue is (0,0,255). 
 *‘A’ represents transparency with values 0 to 255.*
 ### Image coordinates:
-Coordinates in (X,Y), which is (0,0) is located at the top left of the image ![grid1](https://lh3.googleusercontent.com/C8cnaZVwO2HFeHLyCBGJXa5s0im9a3BjwT79JmQsC1l_CgR3jP0mTcG3iYst9JMx8pisZkzY0ELd ) ![grid2](https://lh3.googleusercontent.com/PhCYTVuc4ebhYOFPCf1Brwy7ZfrDh9qFRHRR0LKJnMluAgcHiuOhdjyJrxNghKqrHkqxICvyRNI4)
-
-<![endif]-->
+Coordinates in (X,Y), which is (0,0) is located at the top left of the image 
+![graph](https://lh3.googleusercontent.com/D4Pyngf-OZ5F8dG8IublYwrtabWPx2SvK6Sd7VnYJ95L81ggVSTO3DwYWTtrPGl4w_ZQ-Pw9OBcO "graph")
 
 ## Processing Environment:
 *(What is the processing environment ???)*
