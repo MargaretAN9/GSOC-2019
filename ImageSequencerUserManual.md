@@ -110,7 +110,11 @@ Image Sequencer uses modules that perform a variety of step-by-step image proces
 This section describes each module and a general implementation example  Most examples used Figure 4 as the input reference image.
 
 ![workflow](https://lh3.googleusercontent.com/XE_twkHy8uxZ6jycIddQlMxJF91AbU29pJPILcRcolwiiaNJAUPrJhU_PAJYmVGGoHcJ7aOSTNFR)
+
+
 Figure 4 Reference Image:
+
+
 ![Figure 4 Reference Image](https://lh3.googleusercontent.com/A98oLhF19A1li9ugUa9lvyOJXzKang6nwAn61E_Zwf6NZ3Tqw3OsuuHqUbbb2MnWD_eTL140rRJj )
 Additional information on the modules and other operating modes can be found at the Image Sequencer GitHub site. 
 
@@ -127,7 +131,11 @@ Usage:
 Where options is an object with the following properties:
  - size: size of QR code in pixels (default 200)
  - qrCodeString: input string to generate QR code
+ 
+ 
 ![qr](https://lh3.googleusercontent.com/o99UIUmc8jbs7sn7InSG0NfizUbm3UhOe5q96dPPEGo4ptqHs0lULdkEoFdEEMOLC17dqxFn89wy)
+
+
 ### Average-module:
 This module is used for averaging all the pixels of the image.
 Usage:
