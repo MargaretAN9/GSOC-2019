@@ -52,9 +52,9 @@ July 14, 2019
   3.37 [Tint](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#tint)  
   3.38 [White Balance](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#white-balance)   
   4. [Applications](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#applications)    
-  4.1  [NDVI (NIR and Red) with Color Bar](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#ndvi-nir-and-red-with-color-bar)
+  4.1  [NDVI (NIR and Red) with Color Bar](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#ndvi-nir-and-red-with-color-bar)  
   5.0 [References]
-
+  
 ## Introduction:
 Image sequencer is a sequential image processing system inspired by storyboards.   The storyboard process permits graphic editing by a series of modules tailored for different image processing applications.  
 
