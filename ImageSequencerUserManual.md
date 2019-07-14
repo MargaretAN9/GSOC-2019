@@ -71,7 +71,7 @@ Image sequencer is available at: https://sequencer.publiclab.org/examples/#steps
 ## Specifications:
 ### Input Format Options:
 Image sequencer supports the following options as input images:
-  * Jpeg
+  * jpeg
   * jpg
   * png
   * GIF
@@ -109,12 +109,14 @@ Coordinates in (X,Y), which is (0,0) is located at the top left of the image.
 Figure 1 Public Lab Image Sequencer coordinate matrix
 
 ## Processing Environment:
+Image Sequencer modules are designed to be run either in the browser or in a Node.js environment. 
+
 *(What is the processing environment ???)*
 *(processing time vs file size)*
 
 ## Contributions:
-
-
+Image Sequencer is an open source tool and is happily accepting contributions for improvement.  See
+https://github.com/publiclab/image-sequencer/blob/main/CONTRIBUTING.md for more information.  If you find a bug please list it here a https://github.com/publiclab/image-sequencer/issues/new, and help us develop Image Sequencer by opening an issue!
 
 ## Image Modules:
 
