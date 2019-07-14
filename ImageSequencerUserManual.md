@@ -45,7 +45,7 @@ July 14, 2019
   3.30. [Paint Bucket Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#paint-bucket-module)  
   3.31 [Resize Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#resize-module)  
   3.32 [Replace Color Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#replacecolor-module)  
-  3.33 [Rotate Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#rotate-module)
+  3.33 [Rotate Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#rotate-module)  
   3.34 [Saturation Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#saturation-module)  
   3.35 [Text Overlay](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#text-overlay)    
   3.36 [Threshold](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#threshold)    
@@ -569,7 +569,7 @@ Usage:
     .run()
     
 ### Grid Overlay:
-This adds the grid over an image.
+This adds a grid over an image.
 
 Where options is an object with the following property:
 
