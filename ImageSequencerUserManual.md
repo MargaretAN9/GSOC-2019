@@ -115,8 +115,8 @@ Image Sequencer modules are designed to be run either in the browser or in a Nod
 *(processing time vs file size)*
 
 ## Contributions:
-Image Sequencer is an open source tool and is happily accepting contributions for improvement.  See
-https://github.com/publiclab/image-sequencer/blob/main/CONTRIBUTING.md for more information.  If you find a bug please list it here a https://github.com/publiclab/image-sequencer/issues/new, and help us develop Image Sequencer by opening an issue!
+Image Sequencer is an open source tool and is happily accepting contributions for improvement.   See
+https://github.com/publiclab/image-sequencer/blob/main/CONTRIBUTING.md for more information.   If you find a bug please list it here a https://github.com/publiclab/image-sequencer/issues/new, and help us develop Image Sequencer by opening an issue!
 
 ## Image Modules:
 
