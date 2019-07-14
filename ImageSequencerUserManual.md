@@ -820,7 +820,7 @@ Usage:
     .run()
     
 ### White Balance:
-
+White or [colorbalance](colohttps://en.wikipedia.org/wiki/Color_balance) adjusts colors in the image.  
 
 ![white](https://lh3.googleusercontent.com/1HqpzxNX3FdGzS52f3mbTodzA8HnKv6TuSdii-aHgdiQ-YUT677g9Q-Nr71OGYZVwNfs0KzeML6l)
 
