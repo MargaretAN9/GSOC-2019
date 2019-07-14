@@ -49,8 +49,9 @@ July 14, 2019
   3.34 [Saturation Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#saturation-module)  
   3.35 [Text Overlay](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#text-overlay)    
   3.36 [Threshold](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#threshold)    
-  3.37 [Tint](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#tint)  
-  3.38 [White Balance](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#white-balance)   
+  3.37 [Tint](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#tint)
+  3.38 [WebGIDistort]
+  3.39 [White Balance](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#white-balance)   
 4. [Applications](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#applications)  
   4.1  [NDVI](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#ndvi)  
   4.2  [NDVI (NIR and Red) with Color Bar](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#ndvi-nir-and-red-with-color-bar)  
@@ -822,7 +823,16 @@ Usage:
     sequencer.loadImage('PATH')
     .addSteps('tint',options)
     .run()
-    
+
+### WebGI Distort: 
+
+
+
+
+
+
+
+
 ### White Balance:
 White or [color balance](https://en.wikipedia.org/wiki/Color_balance) adjusts image color.  
 
