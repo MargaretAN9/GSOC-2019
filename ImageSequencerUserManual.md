@@ -844,7 +844,8 @@ The Image Sequence processing steps used to process NDVI images are shown below.
 
 
 ## References:
-Image sequencer Github Readme https://github.com/publiclab/image-sequencer/blob/main/README.md
+-Image sequencer Github Readme https://github.com/publiclab/image-sequencer/blob/main/README.md
+-Initail sesign concept https://publiclab.org/notes/ccpandhare/03-18-2017/developing-image-sequencer-as-a-library
 
 ## Sponsors:
 -[AREN project at NASA](https://science.nasa.gov/science-activation-team/resa)  
