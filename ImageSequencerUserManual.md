@@ -555,7 +555,7 @@ Usage:
     .run()
     
 ### Gradient-module:
-This module is used for finding gradient of the image.
+This module is used to create a gredient image that transitions from black (left edge) to white (right edge).  One application of the gradient module is create colorbars/colormaps.   
   
     
 ![grid](https://lh3.googleusercontent.com/wtOsiWayqrq4W6GuvQv2beIPKEDrQy8sdVnTSKx-ulJmIDsfE_sYOpP0P_bfpaqf1l3Rt9SH3ToF)
