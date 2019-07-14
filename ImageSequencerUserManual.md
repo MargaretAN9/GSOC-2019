@@ -421,7 +421,7 @@ Usage:
 ### Dither-module:
 Dither typically cponverts an image to black and white, such that the density of black dots in the new image approximates the average grey level in the original. Options include differnt processing techniques: none, Atkinson. floydsteinberg, bayer.  
 
-Where options is an object with the following property:  dither: Can select the name of the Dithering Algorithm (default: none)
+Where options is an object with the following property:  dither: Can select the name of the [Dithering Algorithm](https://en.wikipedia.org/wiki/Dither#Algorithms)(default: none)
 
 
 ![none](https://lh3.googleusercontent.com/jaxbqrEozB8uv6x497xTzUbtyaS47TeaNajoJ_kCsDe6svIkvLGILfGC0DnG-GTW0ySIBeYYOhjl)
