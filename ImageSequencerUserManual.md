@@ -11,6 +11,7 @@ July 14, 2019
   2.3  [Color Scheme - RGBA](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#color-scheme--rgba)  
   2.4  [Image Coordinates](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#image-coordinates)  
   2.5  [Processing Environment](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#processing-environment)
+  2.6  [Processing Environment](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#processing-environment)
 3. [Image Modules](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#image-modules)  
   3.1  [Add QR Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#add-qr-module)  
   3.2  [Average Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#average-module)  
@@ -102,11 +103,16 @@ Coordinates in (X,Y), which is (0,0) is located at the top left of the image.
 
 ![graph](https://lh3.googleusercontent.com/D4Pyngf-OZ5F8dG8IublYwrtabWPx2SvK6Sd7VnYJ95L81ggVSTO3DwYWTtrPGl4w_ZQ-Pw9OBcO "graph")
 
-Figure 1 Public Lab Image coordinate matrix
+Figure 1 Public Lab Image Sequencer coordinate matrix
 
 ## Processing Environment:
 *(What is the processing environment ???)*
 *(processing time vs file size)*
+
+## Contributions:
+
+
+
 ## Image Modules:
 
 Image Sequencer uses modules that perform a variety of step-by-step image processing tasks.  Figure 2 describes the general workflow.
