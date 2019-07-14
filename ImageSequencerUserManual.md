@@ -785,7 +785,7 @@ Usage:
 
 
 ### Threshold:
-[Thresholding](https://en.wikipedia.org/wiki/Thresholding)is used to create binary images based on the threshold value. 
+[Thresholding](https://en.wikipedia.org/wiki/Thresholding) is used to create binary images based on the threshold value. 
 
 Where options is an object with the following property:
 -   threshold: it allows to select the types of thresholding (default "manual thresholding")
