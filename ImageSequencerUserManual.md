@@ -128,11 +128,6 @@ Additional information on the modules and other operating modes can be found at 
 ### Add-qr-module:
 This module adds a QR code to the image that corresponding to an input string.
 
-Usage:
-
-    sequencer.loadImage('PATH')
-    .addSteps('add-qr',options)
-    .run()
 Where options is an object with the following properties:
  - size: size of QR code in pixels (default 200)
  - qrCodeString: input string to generate QR code
@@ -141,26 +136,29 @@ Where options is an object with the following properties:
 ![qr](https://lh3.googleusercontent.com/o99UIUmc8jbs7sn7InSG0NfizUbm3UhOe5q96dPPEGo4ptqHs0lULdkEoFdEEMOLC17dqxFn89wy)
 
 
+Usage:
+
+    sequencer.loadImage('PATH')
+    .addSteps('add-qr',options)
+    .run()
+    
+    
 ### Average-module:
 This module is used for averaging all the pixels of the image.
+
+    
+![average](https://lh3.googleusercontent.com/RYHPXdfMDroNKSaKESqJxR30bhSp15fNtK1RozQZgZUfeo19ISwPwmUsM82CvmPTElJ9D60QTdm4)
+
+
 Usage:
 
     sequencer.loadImage('PATH')
     .addSteps('average',options)
     .run()
     
-    
-![average](https://lh3.googleusercontent.com/RYHPXdfMDroNKSaKESqJxR30bhSp15fNtK1RozQZgZUfeo19ISwPwmUsM82CvmPTElJ9D60QTdm4)
-
-
 ### Blend-module:
 This module is used for blending two images . _Blend two chosen image steps with the given function. Defaults to using the red channel from image 1 and the green and blue and alpha channels of image 2._
 
-Usage:
-
-    sequencer.loadImage('PATH')
-    addSteps('blend',options)
-    .run()
 Where options is an object with the following properties:
 
 -   offset: step of image with which current image is to be blended (Two steps back is -2, three steps back is -3 etc; default -2)
@@ -172,16 +170,15 @@ For this example it is necessary to import a second image.
 ![blend](https://lh3.googleusercontent.com/XNuFGACTSQ0yDthkG6KSopK4-zDSJITsgT4XwhTUFn1byaB7IuF5YqvwQXuzaTvpQwRuKNSbMa2V)
 
 
-### Blur-module:
-
-This module is used for applying a Gaussian blur effect.
-
 Usage:
 
     sequencer.loadImage('PATH')
-    .addSteps('blur',options)
+    addSteps('blend',options)
     .run()
+    
+### Blur-module:
 
+This module is used for applying a Gaussian blur effect.
 
 Where options is an object with the following property:
 -   blur : Intensity of Gaussian blur (0 to 5; default 2)
@@ -190,16 +187,15 @@ Where options is an object with the following property:
 ![blur](https://lh3.googleusercontent.com/0gqLTZyaTssk5H9qloxBs_9L53LZbikFr9DIWuu2CS_Z3Eg8byytJT-fJgrLaMoyq3N5-EAjwi6R)
 
 
-### Brightness-module:
-
-This module is used for changing the brightness of the image.
-
 Usage:
 
     sequencer.loadImage('PATH')
-    .addSteps('brightness',options)
+    .addSteps('blur',options)
     .run()
+    
+### Brightness-module:
 
+This module is used for changing the brightness of the image.
 
 Where options is an object with the following property:
 -   brightness : brightness of the image in percentage (0 to 100; default 100)
@@ -210,15 +206,16 @@ Where options is an object with the following property:
 ![brightness](https://lh3.googleusercontent.com/jWt1o-ReLUXhAgRKF0Kvwtj2-v5CmQKsx4EngN_jhEkkn07TQ0iT9IZEkCxE6sipntH0wGge0jov)
 
 
+Usage:
+
+    sequencer.loadImage('PATH')
+    .addSteps('brightness',options)
+    .run()
+
 ### Channel-module:
 
 This module is used for forming a grayscale image by applying one of the three primary colors.
 
-Usage:
-
-    sequencer.loadImage('PATH')
-    .addSteps('channel',options)
-    .run()
 Where options is an object with the following property:
 
 -   channel : color of the channel (red, green, blue; default green)
@@ -233,15 +230,15 @@ Where options is an object with the following property:
 ![red](https://lh3.googleusercontent.com/JADUlR2G21jfxWBXBZr1r4fHfxhvbdlDAsSBTVE2ncBjI5tswWk8ES3NyIsvxXV2qaauApZDlSJ8)
 
 
-### Color Temperature:
-
-This changes the color temperature of the image.
-
 Usage:
 
     sequencer.loadImage('PATH')
-    .addSteps('color-temperature',options)
+    .addSteps('channel',options)
     .run()
+    
+### Color Temperature:
+
+This changes the color temperature of the image.
 
 Where options is an object with the following property:
 
@@ -262,15 +259,17 @@ Color temperature AT 100, 1000, 10,000, and 30000:
 ![100000](https://lh3.googleusercontent.com/_67T5U1AMUUed9E1Z_aIVO4LIUU9wT8JEMfRZIb3MyUIuq9euMPsQ2gGpNbbPGM6d6fNjixN523v)
 
 
-### Color-bar-module:
-
-This module is used for displaying an image with a color bar.
 
 Usage:
 
     sequencer.loadImage('PATH')
-    .addSteps('colorbar',options)
+    .addSteps('color-temperature',options)
     .run()
+    
+### Color-bar-module:
+
+This module is used for displaying an image with a color bar.
+
 Where options is an object with the following properties:
 
 -   colormap: Name of the Colormap(default, greyscale, stretched, fastie, brntogrn, blutoredjet, colors16; default: default)
@@ -284,15 +283,17 @@ Where options is an object with the following properties:
 ![colorbar](https://lh3.googleusercontent.com/eyctaS-TsE_8QC9cuDn8qjAcM1n11XiMFpbW6mO1nEkngaE50gAyCWv10Pq4SlDJ_8hXQKTAsiQc)
 
 
+Usage:
+
+    sequencer.loadImage('PATH')
+    .addSteps('colorbar',options)
+    .run()
+    
 ### Colormap-module:
 
 This module is used for mapping brightness values (average of red, green & blue) to a given color lookup table, made up of a set of one more color gradients.
 
-Usage:
 
-    sequencer.loadImage('PATH')
-    .addSteps('colormap',options)
-    .run()
 Where options is an object with the following property:
 
 -   colormap: Name of the Colormap ( greyscale, stretched, fastie, brntogrn, blutoredjet, colors16)
@@ -304,14 +305,15 @@ Where options is an object with the following property:
 ![fastie](https://lh3.googleusercontent.com/fD2kQMVTbdxZaMMe63tnND4PbBzp7BhQK2M5ygF1bwnUfMmdS-kSqWGzsAt5G8kxMXTPSUd_pD9q)
 
 
-### Contrast-module:
-This module is used for changing the contrast of the image.
-
 Usage:
 
     sequencer.loadImage('PATH')
-    .addSteps('contrast',options)
+    .addSteps('colormap',options)
     .run()
+    
+### Contrast-module:
+This module is used for changing the contrast of the image.
+
 Where options is an object with the following property:
 -   contrast : contrast for the given image (-100 to 100; default : 70)
 
@@ -319,15 +321,16 @@ Where options is an object with the following property:
 ![contrast](https://lh3.googleusercontent.com/-IsvrKxPphqMdx3pvyIprj9iVLt2B6UbuTe_9V2dXgi-JMCPNqbsj6cbRw0Y2sSkCjHk6vt22Xqx)
 
 
+Usage:
+
+    sequencer.loadImage('PATH')
+    .addSteps('contrast',options)
+    .run()
+    
 ### Convolution-module:
 
 This module is used for performing image-convolution.
 
-Usage:
-
-    sequencer.loadImage('PATH')
-    .addSteps('convolution',options)
-    .run()
 Where options is an object with the following properties:
 
 -   constantFactor: a constant factor, multiplies all the kernel values by that factor (default : 1/9)
@@ -337,15 +340,16 @@ Where options is an object with the following properties:
 ![convulotion](https://lh3.googleusercontent.com/W57SJSUSgqigJ-tLBCUQ1VxcstoVFjIVyJluOY43_AmxsMFNFQ_BMY_V0pNCGSZTDfi3UVu7KAJH)
 
 
+Usage:
+
+    sequencer.loadImage('PATH')
+    .addSteps('convolution',options)
+    .run()
+    
 ### Crop-module:
 
 This module is used to crop an image.
 
-Usage:
-
-    sequencer.loadImage('PATH')
-    .addSteps('crop',options)
-    .run()
 Where options is an object having the properties x, y, w, h. This diagram defines these properties:
 
 
@@ -362,6 +366,12 @@ Defaults:
 ![crop2](https://lh3.googleusercontent.com/Ng1NG7QL3lIMyvIdwIW8TuEvwgNeZOZPZuBjVgDHVoAtwK69TLK7E_qMDfjhU2vin28mkZuyZONu)
 
 
+Usage:
+
+    sequencer.loadImage('PATH')
+    .addSteps('crop',options)
+    .run()
+    
 ### DecodeQr-module:
 
 This module is used for decoding a QR in image (if present).
@@ -371,16 +381,13 @@ Usage:
     sequencer.loadImage('PATH')
     .addSteps('decode-qr',options)
     .run()
+    
  ### Detect Edges:
 This module detects edges using the Canny method, which first Gaussian blurs the image to reduce noise (amount of blur configurable in settings as `options.blur`), then applies a number of steps to highlight edges, resulting in a greyscale image where the brighter the pixel, the stronger the detected edge
 
 This module is used for detecting images.
 
-Usage:
 
-    sequencer.loadImage('PATH')
-    .addSteps('edge-detect',options)
-    .run()
 Where options is an object with the following properties:
 
 -   blur: Intensity of Gaussian blur (0 to 5; default 2)
@@ -391,14 +398,15 @@ Where options is an object with the following properties:
 ![edges](https://lh3.googleusercontent.com/5zrQL8KHtd76UCV7wcU6x-BZqp5Me6ZoDfS_QIHRkp6OUrnw3nNL_oUoFM0EaLYht7I8ZLnVzi_p)
 
 
-### Dither-module:
-This module approximates a color from a mixture of other colors when the required color is not available, creating illusions of the color that is not present actually. (Not sure what this means)
-
 Usage:
 
     sequencer.loadImage('PATH')
-    .addSteps('dither',options)
+    .addSteps('edge-detect',options)
     .run()
+    
+### Dither-module:
+This module approximates a color from a mixture of other colors when the required color is not available, creating illusions of the color that is not present actually. (Not sure what this means)
+
 Where options is an object with the following property:
 
 -   dither: Can select the name of the Dithering Algorithm (default: none)
@@ -416,15 +424,16 @@ Where options is an object with the following property:
 ![roy](https://lh3.googleusercontent.com/1_8zAfzV4_NkPinJjVRjeHHOpGFRhqLhvBEEMii_AoIv_QOM1tuwEf2le5Cj0iWn2Qu6QynRuR33)
 
 
+Usage:
+
+    sequencer.loadImage('PATH')
+    .addSteps('dither',options)
+    .run()
+    
 ### Draw-rectangle-module:
 
 This module helps to draw a rectangle on the image with a starting and ending corner with the specified thickness and color of the border.
 
-Usage:
-
-    sequencer.loadImage('PATH')
-    .addSteps('draw-rectangle',options)
-    .run()
 Where options is an object with the following properties:
 
 -   startingX: starting x position of the rectangle (default 0)
@@ -438,15 +447,16 @@ Where options is an object with the following properties:
 ![rect](https://lh3.googleusercontent.com/sXICJ0JatL8_V7TPQCCw6BGWHONxgNeH6q3Q4zdw2GRhMbGMR7hb4jm272FcEFssAbq36GJ9cAYq)
 
 
+Usage:
+
+    sequencer.loadImage('PATH')
+    .addSteps('draw-rectangle',options)
+    .run()
+    
 ### Dynamic-module:
 
 This module is used for producing each color channel based on the original image's color.
 
-Usage:
-
-    sequencer.loadImage('PATH')
-    .addSteps('dynamic',options)
-    .run()
 Where options is an object with the following properties:
 -   red: expression for red channel (R, G, B and A as inputs; default r)
 -   green: expression for green channel (R, G, B and A as inputs; default g)
@@ -458,6 +468,14 @@ Where options is an object with the following properties:
 
 
 *Is it r+g+b or r+g+b/3)?*
+
+
+Usage:
+
+    sequencer.loadImage('PATH')
+    .addSteps('dynamic',options)
+    .run()
+    
 ### Exposure:
 
 
@@ -467,12 +485,6 @@ Where options is an object with the following properties:
 ### FisheyeGl-module:
 
 This module is used for correcting Fisheye or Lens Distortion
-
-Usage:
-
-    sequencer.loadImage('PATH')
-    .addSteps('fisheye-gl',options)
-    .run()
 
 Where options is an object with the following properties:
 -   a: a correction (0 to 4; default 1)
@@ -487,15 +499,16 @@ Where options is an object with the following properties:
 ![fisheye](https://lh3.googleusercontent.com/9Z8UTfkSJM-yy0cIe5dO_4bxjssf7pqbGGzIn_MSOzx4LB_SuDexD75N_n1h4nIYxZMkWYOs0r1K )
 
 
+Usage:
+
+    sequencer.loadImage('PATH')
+    .addSteps('fisheye-gl',options)
+    .run()
+    
 ### Flipimage-module:
 
 This module is used for flipping the image on the selected axis.
 
-Usage:
-
-    sequencer.loadImage('PATH')
-    .addSteps('flip-image',options)
-    .run()
 Where options is an object with the following properties:
  - Axis: select the required axis (default: vertical)
  
@@ -506,22 +519,34 @@ Where options is an object with the following properties:
 ![flipped](https://lh3.googleusercontent.com/6ShR5rDrxxwQCrZkQcH4IOmSxm5mYbyKJkD_y9LGWj8f3nC-jUaRwIkmOogFQ4geeX5pyNAsYA5Z)
 
 
+Usage:
+
+    sequencer.loadImage('PATH')
+    .addSteps('flip-image',options)
+    .run()
+    
 ### Gamma-correction-module:
 
 This module is used for applying gamma correction.
+
+Where options is an object with the following property:
+
+-   adjustment: Inverse of actual gamma factor (default 0.2)
+
+*(slider does not work)*
 
 Usage:
 
     sequencer.loadImage('PATH')
     .addSteps('gamma-correction',options)
     .run()
-Where options is an object with the following property:
-
--   adjustment: Inverse of actual gamma factor (default 0.2)
-
-*(slider does not work)*
+    
 ### Gradient-module:
 This module is used for finding gradient of the image.
+  
+    
+![grid](https://lh3.googleusercontent.com/wtOsiWayqrq4W6GuvQv2beIPKEDrQy8sdVnTSKx-ulJmIDsfE_sYOpP0P_bfpaqf1l3Rt9SH3ToF)
+
 
 Usage:
 
@@ -529,18 +554,9 @@ Usage:
     .addSteps('gradient',options)
     .run()
     
-    
-![grid](https://lh3.googleusercontent.com/wtOsiWayqrq4W6GuvQv2beIPKEDrQy8sdVnTSKx-ulJmIDsfE_sYOpP0P_bfpaqf1l3Rt9SH3ToF)
-
-
 ### Grid Overlay:
 This adds the grid over an image.
 
-Usage:
-
-    sequencer.loadImage('PATH')
-    .addSteps('grid-overlay',options)
-    .run()
 Where options is an object with the following property:
 
 -   options.x: The value at which the grid line should start in x-axis.
@@ -553,14 +569,15 @@ Where options is an object with the following property:
 ![grid](https://lh3.googleusercontent.com/YZp6Ja3U9-wJxlpDpxiVlAHr5gsGKXKaZ-ezDB5yRrQPfphpQnTl1SD5GmrJEiRgTwXPy79ARqDr)
 
 
-### Histogram-module:
-This module is used for calculating histogram of the image.
-
 Usage:
 
     sequencer.loadImage('PATH')
-    .addSteps('histogram',options)
+    .addSteps('grid-overlay',options)
     .run()
+    
+### Histogram-module:
+This module is used for calculating histogram of the image.
+
 Where options is an object with the following property:
 
 -   gradient: Boolean value used to toggle gradient along x-axis. (true or false; default true)
@@ -569,55 +586,57 @@ Where options is an object with the following property:
 ![histo](https://lh3.googleusercontent.com/U7LWC53SqBCAAg2XtDeq3qH3QcUj1iZdfGukrpNdgNYwpg8TcI_So_JktKvczDO0VJAbKECkZajn)
 
 
+Usage:
+
+    sequencer.loadImage('PATH')
+    .addSteps('histogram',options)
+    .run()
+    
 ### Import-image-module:
 
 This module is used for importing a new image and replacing the original with it.
+
+Where options is an object with the following property:
+
+-   url: url of the new image (local image url or data url;default: "./images/monarch.png")
 
 Usage:
 
     sequencer.loadImage('PATH')
     .addSteps('import-image',options)
     .run()
-Where options is an object with the following property:
-
--   url: url of the new image (local image url or data url;default: "./images/monarch.png")
 
 ### Invert-module:
 
 This module is used for inverting the image.
+
+    
+![invert](https://lh3.googleusercontent.com/8XIECi58eAKN2xKMesaEtjCTaUdu_qfhO9dOx308Tu-XVmoHPexhcJkzur884i4xKq_zweESY6WZ)
+
 
 Usage:
 
     sequencer.loadImage('PATH')
     .addSteps('invert',options)
     .run()
-    
-    
-![invert](https://lh3.googleusercontent.com/8XIECi58eAKN2xKMesaEtjCTaUdu_qfhO9dOx308Tu-XVmoHPexhcJkzur884i4xKq_zweESY6WZ)
-
 
 ### NDVI-module:
 
 This module is used for applying ndvi technique to the image.
+
+Where options is an object with the following property:
+
+-   filter: filter for NDVI (blue or red; default red)
 
 Usage:
 
     sequencer.loadImage('PATH')
     .addSteps('ndvi',options)
     .run()
-Where options is an object with the following property:
-
--   filter: filter for NDVI (blue or red; default red)
-
+    
 ### NDVI-colormap-module:
 
 This module is used for demonstrating ndvi and colormap properties consecutively.
-
-Usage:
-
-    sequencer.loadImage('PATH')
-    .addSteps('ndvi-colormap',options)
-    .run()
     
     
 ![ndvi1](https://lh3.googleusercontent.com/5SQpUQczZSXqxUnkkDIxu8nLWjMgxL3_f4zryxjxOsZVT9zYWHMeN3D5WXjfdugrrzsOj2u3WMeV)
@@ -626,14 +645,15 @@ Usage:
 ![ndvi2](https://lh3.googleusercontent.com/4dyid6O69AeeMfw6CCLlmuElLHvvx_xU19AgiTEp4UXkCc02QkIGGsqvtcawJhBMIWwLDdEn6uEG)
 
 
-### Overlay-module:
-This module is used for overlaying an Image over another .
-
 Usage:
 
     sequencer.loadImage('PATH')
-    .addSteps('overlay',options)
+    .addSteps('ndvi-colormap',options)
     .run()
+    
+### Overlay-module:
+This module is used for overlaying an Image over another .
+
 Where options is an object with the following properties:
 
 -   x: X-position of the image on which the new image is overlayed (default 0)
@@ -644,14 +664,15 @@ Where options is an object with the following properties:
 ![overlay](https://lh3.googleusercontent.com/vLfS8aIfwec-yyPfotBx05Bhsty1lM3_XmIDX8AEr-jLqnGMg0VJIGAWm1o-iBwg--OoOdNr58da)
 
 
-### Paint-bucket-module:
-This module fills any polygonal shape with the specified color in pixels.
-
 Usage:
 
     sequencer.loadImage('PATH')
-    .addSteps('paint-bucket',options)
+    .addSteps('overlay',options)
     .run()
+    
+### Paint-bucket-module:
+This module fills any polygonal shape with the specified color in pixels.
+
 Where options is an object with the following property:
 
 -   startingX: it is the value of the starting x-cordinate (default 10)
@@ -660,14 +681,15 @@ Where options is an object with the following property:
 -   tolerance: it is the % tolerance (default 10)
 
 *(does this work, all images seem the same)*
-### Resize-module:
-This module is used for resizing an image.
 
 Usage:
 
     sequencer.loadImage('PATH')
-    .addSteps('resize',options)
+    .addSteps('paint-bucket',options)
     .run()
+    
+### Resize-module:
+This module is used for resizing an image.
 
 Where options is an object with the following property:
 
@@ -684,14 +706,15 @@ Resize-canvas:
 ![resize](https://lh3.googleusercontent.com/L0BHuRJlGFq30teGNx_alnSs-qHar56Sl13mcT5cHmSKCiuETMskklhqOjDRmlVLIorYozmZSNYy)
 
 
+Usage:
+
+    sequencer.loadImage('PATH')
+    .addSteps('resize',options)
+    .run()
+    
 ### ReplaceColor-module:
 This module is used in replacing the color with grey or any desired color.
 
-Usage
-
-    sequencer.loadImage('PATH')
-    .addSteps('replace-color',options)
-    .run()
 Where options is an object with the following properties:
 -   replaceMethod: replaces with the desired color (default greyscale)
 -   replaceColor: three space separated numbers representing the RGB values of color to be filled (default "0 0 255")
@@ -702,14 +725,16 @@ Where options is an object with the following properties:
 ![replacec](https://lh3.googleusercontent.com/wGzhtzvP4mUgnh3P1NDNGW32gEyBEZDhikJRVViWtY7lgoDa7QNF3oBaLwPihNqSXb0wf_jVaytU)
 
 
+
+Usage
+
+    sequencer.loadImage('PATH')
+    .addSteps('replace-color',options)
+    .run()
+    
 ### Rotate-module:
 This module is used for rotating an image.
 
-Usage:
-
-    sequencer.loadImage('PATH')
-    .addSteps('rotate',options)
-    .run()
 Where options is an object with the following property:
 -   rotate: angular value for rotation in degrees (between 0 and 360; default 0)
 
@@ -717,13 +742,15 @@ Where options is an object with the following property:
 ![rotate](https://lh3.googleusercontent.com/cF2yIQzbKl5sQ-6hQXEPIqC2emjNIxJiGG2zWIbvQubz_jOzHtposT94miMC0gb_yLmgcbJnQhjY)
 
 
-This module is used for changing the saturation of the image.
-
 Usage:
 
     sequencer.loadImage('PATH')
-    .addSteps('saturation',options)
+    .addSteps('rotate',options)
     .run()
+    
+### Saturation-module:
+This module is used for changing the saturation of the image.
+
 Where options is an object with the following property:
 
 -   Saturation: Saturation for the new image (between 0 and 2; default 0).
@@ -732,6 +759,12 @@ Where options is an object with the following property:
 ![satur](https://lh3.googleusercontent.com/IDJa8F1hE9SlhNO9smcXAHzM9iq-2vTmxPhAfMNin2My28s9N4DKGf9nhVkHi4hZziWx3eOGeaeY)
 
 
+Usage:
+
+    sequencer.loadImage('PATH')
+    .addSteps('saturation',options)
+    .run()
+    
 ### Text-overlay:
 
 
@@ -741,11 +774,6 @@ Where options is an object with the following property:
 ### Threshold:
 Thresholding is used to create binary images.
 
-Usage:
-
-    sequencer.loadImage('PATH')
-    .addSteps('threshold',options)
-    .run()
 Where options is an object with the following property:
 -   threshold: it allows to select the types of thresholding (default "manual thresholding")
 -   input: it allows to select the range of thresholding value (default 120)
@@ -754,14 +782,14 @@ Where options is an object with the following property:
 ![threash](https://lh3.googleusercontent.com/pG65GyAYLktF--riUv6PJoe7ogDGHx7WlxVXQWUCt3qFgQ2CJJ7908wbSG3YGSOBz943Sci_dPOS)
 
 
-### Tint:
-It adds color tint to an image.
-
 Usage:
 
     sequencer.loadImage('PATH')
-    .addSteps('tint',options)
+    .addSteps('threshold',options)
     .run()
+    
+### Tint:
+It adds color tint to an image.
 
    Where options is an object with the following property:
 -   color: RGB values separated by a space (default "0 0 255")
@@ -771,6 +799,12 @@ Usage:
 ![tint](https://lh3.googleusercontent.com/UkjU82j-zFgCGdlp5I5mICHGvBvME3QLQPJIlBSPxlu0617gKPs-eSIzX2aOGNQXvJu4kmrObQvP)
 
 
+Usage:
+
+    sequencer.loadImage('PATH')
+    .addSteps('tint',options)
+    .run()
+    
 ### White Balance:
 
 
