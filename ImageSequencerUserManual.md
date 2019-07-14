@@ -55,7 +55,7 @@ July 14, 2019
   4.1  [NDVI](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#ndvi)  
   4.2  [NDVI (NIR and Red) with Color Bar](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#ndvi-nir-and-red-with-color-bar)  
 5. [References](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#references)  
-5. [Sponsors](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#references)  
+5. [Sponsors](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#sponsors)  
 
 ## Introduction:
 Image sequencer is a sequential image processing system inspired by storyboards.   The storyboard process permits graphic editing by a series of modules tailored for different image processing applications.  
@@ -108,8 +108,7 @@ blue is (0,0,255).
 Coordinates in (X,Y), which is (0,0) is located at the top left of the image. 
 
 
-![grph](https://lh3.googleusercontent.com/NOj0axOm2RsA2rlBoHn-P2AahkDxqaCYXYHLOgaOxJZHHeiO4OKdTPcaeHClXwz5qQqmfnY9YgK8 "grph")
-
+![graph](https://lh3.googleusercontent.com/D4Pyngf-OZ5F8dG8IublYwrtabWPx2SvK6Sd7VnYJ95L81ggVSTO3DwYWTtrPGl4w_ZQ-Pw9OBcO "graph")
 
 Figure 1 Public Lab Image Sequencer coordinate matrix
 
@@ -847,5 +846,5 @@ The Image Sequence processing steps used to process NDVI images are shown below.
 Image sequencer Github Readme https://github.com/publiclab/image-sequencer/blob/main/README.md
 
 ## Sponsors:
-AREN project at NASA.
-Google Summer of Code
+-[AREN project at NASA](https://science.nasa.gov/science-activation-team/resa)  
+-Google Summer of Code
