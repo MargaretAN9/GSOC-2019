@@ -10,7 +10,7 @@ July 14, 2019
   2.2  [Output Options](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#output-options)  
   2.3  [Color Scheme - RGBA](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#color-scheme--rgba)  
   2.4  [Image Coordinates](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#image-coordinates)  
-  2.5  [Processing Environment](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#processing-environment)
+  2.5  [Processing Environment](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#processing-environ)    
   2.6  [Processing Environment](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#processing-environment)
 3. [Image Modules](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#image-modules)  
   3.1  [Add QR Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#add-qr-module)  
@@ -96,8 +96,8 @@ Color is represented as as ‘tuple’ in (R,G,B,A) format. Each color channel (
 
 For example: 
 black is: (0,0,0),
-white is (255,255,255)
-red is (255,0,0). 
+white is (255,255,255),
+red is (255,0,0), 
 blue is (0,0,255). 
 
 ### Image coordinates:
