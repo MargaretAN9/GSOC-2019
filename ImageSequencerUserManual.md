@@ -111,7 +111,7 @@ Figure 1 Public Lab Image coordinate matrix
 
 Image Sequencer uses modules that perform a variety of step-by-step image processing tasks.  Figure 2 describes the general workflow.
 
-This section describes each module and a general implementation example  Most examples used Figure 3 as the input reference image.
+This section describes each module and a general implementation example.  Most examples used Figure 3 as the input reference image.
 
 ![workflow](https://lh3.googleusercontent.com/XE_twkHy8uxZ6jycIddQlMxJF91AbU29pJPILcRcolwiiaNJAUPrJhU_PAJYmVGGoHcJ7aOSTNFR)
 
@@ -121,7 +121,7 @@ Figure 2 Image Sequencer workflow:
 
 ![Figure 4 Reference Image](https://lh3.googleusercontent.com/A98oLhF19A1li9ugUa9lvyOJXzKang6nwAn61E_Zwf6NZ3Tqw3OsuuHqUbbb2MnWD_eTL140rRJj )
 
-Figure 3 Image Sequencer workflow:
+Figure 3 Image Sequencer general reference image used for module examples:
 
 Additional information on the modules and other operating modes can be found at the Image Sequencer GitHub site. 
 
