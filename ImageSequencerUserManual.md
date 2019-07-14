@@ -49,7 +49,7 @@ July 14, 2019
   3.34 [Saturation Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#saturation-module)  
   3.35 [Text Overlay](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#text-overlay)    
   3.36 [Threshold](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#threshold)    
-  3.37 [Tint](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#tint)
+  3.37 [Tint](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#tint)  
   3.38 [WebGIDistort](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#webgi-distort)  
   3.39 [White Balance](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#white-balance)     
 4. [Applications](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#applications)  
@@ -825,7 +825,7 @@ Usage:
     .run()
 
 ### WebGI Distort: 
-
+Transform perspective of an image based on corner coordinates.
 
 
 
