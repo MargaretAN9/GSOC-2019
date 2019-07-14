@@ -11,7 +11,7 @@ July 14, 2019
   2.3  [Color Scheme - RGBA](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#color-scheme--rgba)  
   2.4  [Image Coordinates](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#image-coordinates)  
   2.5  [Processing Environment](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#processing-environ)    
-  2.6  [Processing Environment](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#processing-environment)
+  2.6  [Contributions](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#contributions)
 3. [Image Modules](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#image-modules)  
   3.1  [Add QR Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#add-qr-module)  
   3.2  [Average Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#average-module)  
