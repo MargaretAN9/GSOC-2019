@@ -53,7 +53,7 @@ July 14, 2019
   3.38 [White Balance](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#white-balance)   
 4. [Applications](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#applications)    
   4.1  [NDVI (NIR and Red) with Color Bar](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#ndvi-nir-and-red-with-color-bar)  
-5. [References]
+5. [References](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#references)
   
 ## Introduction:
 Image sequencer is a sequential image processing system inspired by storyboards.   The storyboard process permits graphic editing by a series of modules tailored for different image processing applications.  
@@ -838,4 +838,4 @@ The Image Sequence processing steps used to process NDVI images are shown below.
 
 ## References:
 
-
+     - Image sequencer Github Readme,  https://github.com/publiclab/image-sequencer/blob/main/README.md
