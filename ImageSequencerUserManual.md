@@ -343,7 +343,7 @@ Usage:
     
 ### Convolution-module:
 
-This module is used for performing image-convolution.
+This module is used for performing image-convolution.  [Convolution](https://en.wikipedia.org/wiki/Kernel) is used for blurring, sharpening, embossing, edge detection, and more. This is accomplished by doing a convolution between a kernel and an image.
 
 Where options is an object with the following properties:
 
