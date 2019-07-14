@@ -4,7 +4,8 @@ July 14, 2019
 ======================
 
 
-1. [Introduction](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#introduction)
+1. [Introduction](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#introduction)  
+  1.1  [General Instructions](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#input-format-options) 
 2. [Specifications](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#specifications)  
   2.1  [Input Format Options](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#input-format-options)  
   2.2  [Output Options](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#output-options)  
@@ -47,11 +48,11 @@ July 14, 2019
   3.32 [Replace Color Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#replacecolor-module)  
   3.33 [Rotate Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#rotate-module)  
   3.34 [Saturation Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#saturation-module)  
-  3.35 [Text Overlay](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#text-overlay)    
-  3.36 [Threshold](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#threshold)    
-  3.37 [Tint](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#tint)  
-  3.38 [WebGIDistort](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#webgi-distort)  
-  3.39 [White Balance](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#white-balance)     
+  3.35 [Text Overlay Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#text-overlay)    
+  3.36 [Threshold Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#threshold)    
+  3.37 [Tint Module Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#tint)  
+  3.38 [WebGIDistort Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#webgi-distort)  
+  3.39 [White Balance Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#white-balance)     
 4. [Applications](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#applications)  
   4.1  [NDVI](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#ndvi)  
   4.2  [NDVI (NIR and Red) with Color Bar](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#ndvi-nir-and-red-with-color-bar)  
