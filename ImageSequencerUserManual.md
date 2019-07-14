@@ -70,10 +70,22 @@ Image Sequencer is different from other image processing systems because it's no
 * works identically in the browser, on Node.js, and on the command line
 
 
-This manual provides instruction for the web browser applications of Image Sequencer.  The user manual consists of specifications, a description of the modules and an applications section which describes how the modules, when combined, can be used for different types of image analysis.   
-
+This manual provides instruction for the web browser applications of Image Sequencer.  The user manual consists of specifications, a description of the modules and an applications section which describes how the modules, when combined, can be used for different types of image analysis. 
 
 Image sequencer is available at: https://sequencer.publiclab.org/examples/#steps=
+
+
+
+### General Instructions: 
+
+General operationg instructions are described below: 
+
+1) Access Image sequencer  at: https://sequencer.publiclab.org/examples/#steps=
+2) Load new picture (or use default image) 
+3) Select step or processing module 
+
+
+
 ## Specifications:
 ### Input Format Options:
 Image sequencer supports the following options as input images:
