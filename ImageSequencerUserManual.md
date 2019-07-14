@@ -91,12 +91,15 @@ Image sequencer supports the following options as output images:
 
  
 ### Color Scheme – RGBA:
-Color is represented as as ‘tuple’ in (R,G,B) format. Each color channel has a value between 0 and 255.
+Color is represented as as ‘tuple’ in (R,G,B,A) format. Each color channel (R-Red, B-Blue, G-Green)  has a value between 0 and 255.
+*‘A’ represents transparency with values 0 to 255.*
+
+For example: 
 black is: (0,0,0),
-white is (255,255,255).. 
+white is (255,255,255)
 red is (255,0,0). 
 blue is (0,0,255). 
-*‘A’ represents transparency with values 0 to 255.*
+
 ### Image coordinates:
 Coordinates in (X,Y), which is (0,0) is located at the top left of the image. 
 
