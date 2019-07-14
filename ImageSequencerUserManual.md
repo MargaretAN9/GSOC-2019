@@ -1,6 +1,6 @@
 **Image Sequencer** 
-User Manual Version 0.2 
-July 2, 2019
+User Manual Version 0.3 
+July 14, 2019
 ======================
 
 
@@ -101,21 +101,21 @@ Coordinates in (X,Y), which is (0,0) is located at the top left of the image.
 
 
 ![graph](https://lh3.googleusercontent.com/D4Pyngf-OZ5F8dG8IublYwrtabWPx2SvK6Sd7VnYJ95L81ggVSTO3DwYWTtrPGl4w_ZQ-Pw9OBcO "graph")
-
+Figure 1 Public Lab Image coordinates
 
 ## Processing Environment:
 *(What is the processing environment ???)*
 *(processing time vs file size)*
 ## Image Modules:
 
-Image Sequencer uses modules that perform a variety of step-by-step image processing tasks.  Figure 3 describes the general workflow.
+Image Sequencer uses modules that perform a variety of step-by-step image processing tasks.  Figure 2 describes the general workflow.
 
-This section describes each module and a general implementation example  Most examples used Figure 4 as the input reference image.
+This section describes each module and a general implementation example  Most examples used Figure 3 as the input reference image.
 
 ![workflow](https://lh3.googleusercontent.com/XE_twkHy8uxZ6jycIddQlMxJF91AbU29pJPILcRcolwiiaNJAUPrJhU_PAJYmVGGoHcJ7aOSTNFR)
 
 
-Figure 4 Reference Image:
+Figure 2 workflow:
 
 
 ![Figure 4 Reference Image](https://lh3.googleusercontent.com/A98oLhF19A1li9ugUa9lvyOJXzKang6nwAn61E_Zwf6NZ3Tqw3OsuuHqUbbb2MnWD_eTL140rRJj )
