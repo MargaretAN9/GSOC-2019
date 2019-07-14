@@ -86,19 +86,8 @@ General operating instructions are described below:
 6) Store to file by clicking image or use "Save" blue button.    
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+![enter image description here](https://lh3.googleusercontent.com/TSZGcZjnFakspSPQz7Sl5eRffznuJb413_ifzyr6l5VYdQ-uSXzp9CRXgRVTTYBQuMLquMXxb0rO)
+![enter image description here](https://lh3.googleusercontent.com/im15hyEGwHwY1iy6FkKEyAzbMoPOiCOQ3xCJnccEVnzntsvg-ZV7_5ZugkDMDy5nttM1RHmt9c6x)
 
 
 ## Specifications:
@@ -856,9 +845,7 @@ Usage:
 Transform perspective of an image based on corner coordinates.
 
 
-
-
-
+![enter image description here](https://lh3.googleusercontent.com/UurNjbKnHBNXV_nxK5dZ4eQIdrFquKlMiM9SlNK2T1PljM8E4CXucTV4ynMHoLwkUdA0mfb9hrbL)
 
 
 ### White Balance:
