@@ -419,7 +419,7 @@ Usage:
     .run()
     
 ### Dither-module:
-This module approximates a color from a mixture of other colors when the required color is not available, creating illusions of the color that is not present actually. Optins include :none, Atkinson. floydsteinberg, bayer.  
+A common use of dither is converting a greyscale image to black and white, such that the density of black dots in the new image approximates the average grey level in the original. Options include: none, Atkinson. floydsteinberg, bayer.  
 
 Where options is an object with the following property:  dither: Can select the name of the Dithering Algorithm (default: none)
 
