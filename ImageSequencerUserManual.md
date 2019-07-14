@@ -419,7 +419,7 @@ Usage:
     .run()
     
 ### Dither-module:
-Dither typically cponverts an image to black and white, such that the density of black dots in the new image approximates the average grey level in the original. Options include differnt processing techniques: none, Atkinson. floydsteinberg, bayer.  
+Dither typically converts an image to black and white, such that the density of black dots in the new image approximates the average grey level in the original. Options include different processing techniques: none, Atkinson, floydsteinberg, bayer.  
 
 Where options is an object with the following property:  dither: Can select the name of the [Dithering Algorithm](https://en.wikipedia.org/wiki/Dither#Algorithms)(default: none)
 
