@@ -489,7 +489,7 @@ Usage:
     .run()
     
 ### Exposure:
-Exposure (re)adjusts light in which the nimage was taken.   Underexposed digital photos are too dark; overexposed photos are, too light.
+Exposure (re)adjusts light in which the image was taken.   Underexposed digital photos are too dark; overexposed photos are, too light.
 
 ![exposure](https://lh3.googleusercontent.com/wqsLEq_UWar3s-aCbnf238mxGPd2BJbxrDyvw5QFc6DxQgNoC_ib5DxB6spte2IcduUOpWjK2Nn5)
 
@@ -588,7 +588,7 @@ Usage:
     .run()
     
 ### Histogram-module:
-This module is used for calculating histogram of the image.
+This module is used for calculating [histogram](https://en.wikipedia.org/wiki/Image_histogram) of the image.  The histogram plots the number of pixels in the image (vertical axis) with a particular brightness value (horizontal axis).
 
 Where options is an object with the following property:
 
