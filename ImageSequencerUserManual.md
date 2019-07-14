@@ -130,7 +130,7 @@ Figure 2 Image Sequencer workflow:
 
 ![Figure 4 Reference Image](https://lh3.googleusercontent.com/A98oLhF19A1li9ugUa9lvyOJXzKang6nwAn61E_Zwf6NZ3Tqw3OsuuHqUbbb2MnWD_eTL140rRJj )
 
-Figure 3 Image Sequencer general reference image used for module examples:
+Figure 3 Image Sequencer general reference image used as example input.
 
 Additional information on the modules and other operating modes can be found at the Image Sequencer GitHub site. 
 
