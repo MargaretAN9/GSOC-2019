@@ -78,11 +78,11 @@ This manual provides instruction for the web browser applications of Image Seque
 General operationg instructions are described below: 
 
 1) Access Image Sequencer  at: https://sequencer.publiclab.org/examples/#steps=
-2) Load new picture (or use default image) 
-3) Select a module from the dropdown box
-3a) Adjust Module Parameters (as needed) 
-4)Click green 'add step' button 
-5) Sdd or delete  modules (delete via small garbage can icon in upper right of displayed modules)
+2) Load new picture (or use default image)   
+3) Select a module from the dropdown box  
+3a)Adjust Module Parameters (as needed)   
+4) Click green 'add step' button   
+5) Add or delete  modules (delete via small garbage can icon in upper right of displayed modules)  
 6)Store to file by clicking image or use "Save blue button.    
 
 
