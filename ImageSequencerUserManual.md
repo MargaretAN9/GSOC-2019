@@ -419,11 +419,9 @@ Usage:
     .run()
     
 ### Dither-module:
-This module approximates a color from a mixture of other colors when the required color is not available, creating illusions of the color that is not present actually. (Not sure what this means)
+This module approximates a color from a mixture of other colors when the required color is not available, creating illusions of the color that is not present actually. Optins include :none, Atkinson. floydsteinberg, bayer.  
 
-Where options is an object with the following property:
-
--   dither: Can select the name of the Dithering Algorithm (default: none)
+Where options is an object with the following property:  dither: Can select the name of the Dithering Algorithm (default: none)
 
 
 ![none](https://lh3.googleusercontent.com/jaxbqrEozB8uv6x497xTzUbtyaS47TeaNajoJ_kCsDe6svIkvLGILfGC0DnG-GTW0ySIBeYYOhjl)
