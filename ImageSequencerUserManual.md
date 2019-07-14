@@ -803,7 +803,7 @@ Usage:
     .run()
     
 ### Tint:
-It adds color tint to an image.
+Tint module adds/adjust image color. 
 
    Where options is an object with the following property:
 -   color: RGB values separated by a space (default "0 0 255")
@@ -820,7 +820,7 @@ Usage:
     .run()
     
 ### White Balance:
-White or [colorbalance](colohttps://en.wikipedia.org/wiki/Color_balance) adjusts colors in the image.  
+White or [color balance](https://en.wikipedia.org/wiki/Color_balance) adjusts image color.  
 
 ![white](https://lh3.googleusercontent.com/1HqpzxNX3FdGzS52f3mbTodzA8HnKv6TuSdii-aHgdiQ-YUT677g9Q-Nr71OGYZVwNfs0KzeML6l)
 
