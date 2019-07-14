@@ -397,7 +397,7 @@ Usage:
     .run()
     
  ### Detect Edges:
-This module detects edges using the Canny method, which first Gaussian blurs the image to reduce noise (amount of blur configurable in settings as `options.blur`), then applies a number of steps to highlight edges, resulting in a greyscale image where the brighter the pixel, the stronger the detected edge
+This module detects edges using the [Canny](https://en.wikipedia.org/wiki/Canny_edge_detector) method, which first Gaussian blurs the image to reduce noise (amount of blur configurable in settings as `options.blur`), then applies a number of steps to highlight edges, resulting in a greyscale image where the brighter the pixel, the stronger the detected edge
 
 This module is used for detecting images.
 
