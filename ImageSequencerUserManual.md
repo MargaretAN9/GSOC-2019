@@ -634,7 +634,7 @@ Usage:
 
 ### NDVI-module:
 
-This module is used for applying ndvi technique to the image.
+This module is used for applying [NDVI](dvihttps://publiclab.org/wiki/ndvi) technique to the image.
 
 Where options is an object with the following property:
 
