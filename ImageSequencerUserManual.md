@@ -832,7 +832,7 @@ This section demonstrates how Image Sequencer modules can be applied for differe
 
 
 ### NDVI: 
-This [you tube tutorial](https://www.youtube.com/watch?v=RHaiVjPPvMc) shows how to use Image Sequencer (https://publiclab.org/image-sequencer) to take two DIY multispectral images (one infrared, one visible light) and composite them into an NDVI image (https://publiclab.org/ndvi)
+This [youtube tutorial](https://www.youtube.com/watch?v=RHaiVjPPvMc) shows how to use Image Sequencer (https://publiclab.org/image-sequencer) to take two DIY multispectral images (one infrared, one visible light) and composite them into an NDVI image (https://publiclab.org/ndvi)
 ### NDVI (NIR and Red) with Color Bar:
 The Image Sequence processing steps used to process NDVI images are shown below. Steps include: 1) Choose file #1 (NIR image), 2)Choose file #2 (Red band image), 3)blend, 4) NDVI (red), 5) Colormap (greyscale). 
 
@@ -843,3 +843,7 @@ The Image Sequence processing steps used to process NDVI images are shown below.
 
 ## References:
 Image sequencer Github Readme https://github.com/publiclab/image-sequencer/blob/main/README.md
+
+## Sponsors:
+AREN project at NASA.
+Google Summer of Code
