@@ -101,7 +101,8 @@ Coordinates in (X,Y), which is (0,0) is located at the top left of the image.
 
 
 ![graph](https://lh3.googleusercontent.com/D4Pyngf-OZ5F8dG8IublYwrtabWPx2SvK6Sd7VnYJ95L81ggVSTO3DwYWTtrPGl4w_ZQ-Pw9OBcO "graph")
-Figure 1 Public Lab Image coordinates
+
+Figure 1 Public Lab Image coordinate matrix
 
 ## Processing Environment:
 *(What is the processing environment ???)*
@@ -115,11 +116,12 @@ This section describes each module and a general implementation example  Most ex
 ![workflow](https://lh3.googleusercontent.com/XE_twkHy8uxZ6jycIddQlMxJF91AbU29pJPILcRcolwiiaNJAUPrJhU_PAJYmVGGoHcJ7aOSTNFR)
 
 
-Figure 2 workflow:
+Figure 2 Image Sequencer workflow:
 
 
 ![Figure 4 Reference Image](https://lh3.googleusercontent.com/A98oLhF19A1li9ugUa9lvyOJXzKang6nwAn61E_Zwf6NZ3Tqw3OsuuHqUbbb2MnWD_eTL140rRJj )
 
+Figure 3 Image Sequencer workflow:
 
 Additional information on the modules and other operating modes can be found at the Image Sequencer GitHub site. 
 
