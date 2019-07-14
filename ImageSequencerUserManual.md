@@ -767,7 +767,7 @@ Usage:
     .run()
     
 ### Saturation-module:
-This module is used for changing the saturation of the image.
+This module is used for changing the saturation of the image.  The saturation slider changes  the intensity of colors, ranging from black/white (no saturation) to grayish colors to bright, vivid colors (full saturation).
 
 Where options is an object with the following property:
 
