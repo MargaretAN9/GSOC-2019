@@ -51,8 +51,9 @@ July 14, 2019
   3.36 [Threshold](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#threshold)    
   3.37 [Tint](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#tint)  
   3.38 [White Balance](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#white-balance)   
-4. [Applications](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#applications)    
-  4.1  [NDVI (NIR and Red) with Color Bar](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#ndvi-nir-and-red-with-color-bar)  
+4. [Applications](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#applications)
+  4.1  [NDVI](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#ndvi)
+  4.2  [NDVI (NIR and Red) with Color Bar](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#ndvi-nir-and-red-with-color-bar)  
 5. [References](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#references)
   
 ## Introduction:
@@ -831,7 +832,7 @@ This section demonstrates how Image Sequencer modules can be applied for differe
 
 
 ### NDVI: 
-This tutorial shows how to use Image Sequencer (https://publiclab.org/image-sequencer) to take two DIY multispectral images (one infrared, one visible light) and composite them into an NDVI image (https://publiclab.org/ndvi)
+This [you tube tutorial](https://www.youtube.com/watch?v=RHaiVjPPvMc) shows how to use Image Sequencer (https://publiclab.org/image-sequencer) to take two DIY multispectral images (one infrared, one visible light) and composite them into an NDVI image (https://publiclab.org/ndvi)
 ### NDVI (NIR and Red) with Color Bar:
 The Image Sequence processing steps used to process NDVI images are shown below. Steps include: 1) Choose file #1 (NIR image), 2)Choose file #2 (Red band image), 3)blend, 4) NDVI (red), 5) Colormap (greyscale). 
 
