@@ -4,6 +4,7 @@ July 14, 2019
 ======================
 
 
+
 1. [Introduction](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#introduction)  
   1.1  [General Instructions](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#general-instructions) 
 2. [Specifications](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#specifications)  
