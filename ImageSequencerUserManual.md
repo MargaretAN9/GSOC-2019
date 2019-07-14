@@ -108,7 +108,8 @@ blue is (0,0,255).
 Coordinates in (X,Y), which is (0,0) is located at the top left of the image. 
 
 
-![graph](https://lh3.googleusercontent.com/D4Pyngf-OZ5F8dG8IublYwrtabWPx2SvK6Sd7VnYJ95L81ggVSTO3DwYWTtrPGl4w_ZQ-Pw9OBcO "graph")
+![grph](https://lh3.googleusercontent.com/NOj0axOm2RsA2rlBoHn-P2AahkDxqaCYXYHLOgaOxJZHHeiO4OKdTPcaeHClXwz5qQqmfnY9YgK8 "grph")
+
 
 Figure 1 Public Lab Image Sequencer coordinate matrix
 
