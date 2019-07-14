@@ -123,7 +123,7 @@ Image Sequencer is an open source tool and is happily accepting contributions fo
 
 Image Sequencer uses modules that perform a variety of step-by-step image processing tasks.  Figure 2 describes the general workflow.
 
-This section describes each module and a general implementation example.  Most examples used Figure 3 as the input reference image.
+This section describes each module and a general implementation example.  Most examples used Figure 3 as the input reference image.  Advanced image processing concepts include a wikipedia reference for mor information. 
 
 ![workflow](https://lh3.googleusercontent.com/XE_twkHy8uxZ6jycIddQlMxJF91AbU29pJPILcRcolwiiaNJAUPrJhU_PAJYmVGGoHcJ7aOSTNFR)
 
