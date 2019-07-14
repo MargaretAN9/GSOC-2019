@@ -192,7 +192,7 @@ Usage:
     
 ### Blur-module:
 
-This module is used for applying a [Gaussian blur](https://en.wikipedia.org/wiki/Gaussian_blureffect) or smoothing effect.
+This module is used for applying a [Gaussian blur](https://en.wikipedia.org/wiki/Gaussian_blur) or smoothing effect.
 
 Where options is an object with the following property:
 -   blur : Intensity of Gaussian blur (0 to 5; default 2)
