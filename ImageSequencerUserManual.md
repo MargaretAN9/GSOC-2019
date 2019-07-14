@@ -5,7 +5,7 @@ July 14, 2019
 
 
 1. [Introduction](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#introduction)  
-  1.1  [General Instructions](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#input-format-options) 
+  1.1  [General Instructions](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#general-instructions) 
 2. [Specifications](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#specifications)  
   2.1  [Input Format Options](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#input-format-options)  
   2.2  [Output Options](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#output-options)  
@@ -72,17 +72,32 @@ Image Sequencer is different from other image processing systems because it's no
 
 This manual provides instruction for the web browser applications of Image Sequencer.  The user manual consists of specifications, a description of the modules and an applications section which describes how the modules, when combined, can be used for different types of image analysis. 
 
-Image sequencer is available at: https://sequencer.publiclab.org/examples/#steps=
-
-
 
 ### General Instructions: 
 
 General operationg instructions are described below: 
 
-1) Access Image sequencer  at: https://sequencer.publiclab.org/examples/#steps=
+1) Access Image Sequencer  at: https://sequencer.publiclab.org/examples/#steps=
 2) Load new picture (or use default image) 
-3) Select step or processing module 
+3) Select a module from the dropdown box
+3a) Adjust Module Parameters (as needed) 
+4)Click green 'add step' button 
+5) Sdd or delete  modules (delete via small garbage can icon in upper right of displayed modules)
+6)Store to file by clicking image or use "Save blue button.    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
