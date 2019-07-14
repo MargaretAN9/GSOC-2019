@@ -489,7 +489,7 @@ Usage:
     .run()
     
 ### Exposure:
-
+Exposure (re)adjusts light in which the nimage was taken.   Underexposed digital photos are too dark; overexposed photos are, too light.
 
 ![exposure](https://lh3.googleusercontent.com/wqsLEq_UWar3s-aCbnf238mxGPd2BJbxrDyvw5QFc6DxQgNoC_ib5DxB6spte2IcduUOpWjK2Nn5)
 
