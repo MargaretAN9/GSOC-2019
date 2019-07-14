@@ -496,7 +496,8 @@ Exposure (re)adjusts light in which the image was taken.   Underexposed digital 
 
 ### FisheyeGl-module:
 
-This module is used for correcting Fisheye or Lens Distortion
+This module is used for correcting [Fisheye](https://publiclab.org/notes/warren/08-25-2017/remove-lens-distortion-from-photos-with-fisheyegl) or  Barrel Lens Distortion.  This module changes the field of view by curving inward what would normally be a straight line.  Barrel distortion is typical on most wide angle prime lenses and and is common on go-pro cameras. 
+
 
 Where options is an object with the following properties:
 -   a: a correction (0 to 4; default 1)
@@ -588,7 +589,7 @@ Usage:
     .run()
     
 ### Histogram-module:
-This module is used for calculating [histogram](https://en.wikipedia.org/wiki/Image_histogram) of the image.  The histogram plots the number of pixels in the image (vertical axis) with a particular brightness value (horizontal axis).
+This module is used for calculating the [histogram](https://en.wikipedia.org/wiki/Image_histogram) of the image.  The histogram plots the number of pixels in the image (vertical axis) with a particular brightness value (horizontal axis).
 
 Where options is an object with the following property:
 
