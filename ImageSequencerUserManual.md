@@ -171,7 +171,7 @@ Usage:
     .run()
     
 ### Blend-module:
-This module is used for blending two images . _Blend two chosen image steps with the given function. Defaults to using the red channel from image 1 and the green and blue and alpha channels of image 2._
+This module is used for blending two images . (Blend two chosen image steps with the given function. Defaults to using the red channel from image 1 and the green and blue and alpha channels of image 2.)
 
 Where options is an object with the following properties:
 
