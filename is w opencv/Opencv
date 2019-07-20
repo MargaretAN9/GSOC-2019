@@ -1,0 +1,89 @@
+module.exports = function Opencv(options, UI) {
+
+  var output;
+  
+  console.log ('module loaded');
+
+
+  //make async later
+  var cv = require ('./opencv.js');
+  console.log ('cv require loaded');
+
+   
+  var canvas = document.createElement('canvas');
+  var ctx = canvas.getContext('2d');
+  
+  
+  function draw(input, callback) {
+
+    console.log(input);
+    console.log ('i am here 3');
+
+    function convertURIToImageData(URI) {
+      return new Promise(function(resolve, reject) {
+        if (URI == null) return reject();
+        var canvas = document.createElement('canvas'),
+          context = canvas.getContext('2d'),
+          image = new Image();
+        image.addEventListener('load', function() {
+          canvas.width = image.width;
+          canvas.height = image.height;
+          context.drawImage(image, 0, 0, canvas.width, canvas.height);
+          resolve(context.getImageData(0, 0, canvas.width, canvas.height));
+        }, false);
+        image.src = URI;
+      });
+    }
+
+    console.log ('convert URI to opencv format');
+
+    //this converts URI to format for opencv
+    convertURIToImageData(input.src).then(function(imageData) {
+      // Here you can use imageData
+      console.log(imageData);
+
+
+      var canvas = document.createElement('canvas');
+      var ctx = canvas.getContext('2d');
+
+      console.log ('i am here 7');
+
+      cv['onRuntimeInitialized'] = ()=>{
+
+
+        console.log ('create opencv format');
+
+        //this  creates the opencv rgba format
+        let src1 = cv.matFromImageData(imageData);
+        cv.cvtColor(src1, src1, cv.COLOR_RGB2GRAY);
+  
+     //opencv in rgba format convert to datauri 
+        
+      };
+
+     
+    });
+
+
+ 
+    //src.delete();
+    //dst.delete();
+    
+
+    var output = function(input){
+      /* do something with the input */
+
+      return input;
+    };
+
+    this.output = output(input); // run the output and assign it to this.output
+    callback();
+  }
+
+  return {
+    options: options,
+    draw: draw,
+    output: output,
+    UI: UI
+  };
+};
