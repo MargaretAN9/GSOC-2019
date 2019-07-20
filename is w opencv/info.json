@@ -1,0 +1,13 @@
+{
+    "name": "",
+    "description": "teste",
+    "inputs": {
+        "method": {
+            "type": "select",
+            "desc": "test",
+            "default": "test",
+            "values": ["test"]
+        }
+    },
+    "docs-link":""
+}
