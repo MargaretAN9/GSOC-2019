@@ -15,9 +15,9 @@ July 14, 2019
   2.5  [Processing Environment](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#processing-environ)    
   2.6  [Contributions](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#contributions)
 3. [Image Modules](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#image-modules)  
-  3.1  [Add QR Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#add-qr-module)  
-  3.2  [Average Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#average-module)  
-  3.3  [Blend Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#blend-module)  
+  3.1 [Add QR Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#add-qr-module)  
+  3.2 [Average Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#average-module)  
+  3.3 [Blend Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#blend-module)  
   3.4 [Blur Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#blur-module)  
   3.5 [Brightness Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#brightness-module)   
   3.6 [Channel Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#channel-module)  
@@ -35,16 +35,18 @@ July 14, 2019
   3.18 [Exposure](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#exposure)  
   3.19 [Fisheye Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#fisheyegl-module)  
   3.20 [Flip Image Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#flipimage-module)  
-  3.21 [Gamma Correction Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#gamma-correction-module)    
+  3.21 [Gamma Correction Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#gamma-correction-module)   
   3.22 [Gradient Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#gradient-module)   
   3.23 [Grid Overlay](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#grid-overlay)    
   3.24 [Histrogram Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#histogram-module)  
   3.25 [Import Image Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#import-image-module)  
-  3.26 [Invert Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#invert-module)  
+  3.26 [Invert Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#invert-module)
+  3.26 [Minify Image Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#minify-image-module)
   3.27 [NDVI Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#ndvi-module)  
   3.28 [NDVI Colormap Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#ndvi-colormap-module)  
+  3.26 [Noise Reduction Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#noise-reduction-module)  
   3.29 [Overlay Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#overlay-module)  
-  3.30. [Paint Bucket Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#paint-bucket-module)  
+  3.30.[Paint Bucket Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#paint-bucket-module)  
   3.31 [Resize Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#resize-module)  
   3.32 [Replace Color Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#replacecolor-module)  
   3.33 [Rotate Module](https://github.com/MargaretAN9/GSOC-2019/blob/master/ImageSequencerUserManual.md#rotate-module)  
@@ -656,6 +658,10 @@ Usage:
     sequencer.loadImage('PATH')
     .addSteps('invert',options)
     .run()
+    
+    
+### Minify-image-module
+*To be added
 
 ### NDVI-module:
 
@@ -688,6 +694,10 @@ Usage:
     .addSteps('ndvi-colormap',options)
     .run()
     
+    
+### Noise-reduction-module    
+*To be added
+
 ### Overlay-module:
 This module is used for overlaying an Image over another .
 
