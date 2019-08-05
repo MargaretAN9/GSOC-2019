@@ -177,11 +177,11 @@ Where options is an object with the following properties:
 
 
 Usage:
-
+  '''js
     sequencer.loadImage('PATH')
     .addSteps('add-qr',options)
     .run()
-    
+  '''
     
 ### Average-module:
 This module is used for averaging all the pixels of the image.
