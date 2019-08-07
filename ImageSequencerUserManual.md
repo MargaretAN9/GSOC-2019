@@ -161,6 +161,9 @@ Figure 2 Image Sequencer workflow:
 
 Figure 3 Image Sequencer general reference image used as example input.
 
+![enter image description here](https://lh3.googleusercontent.com/Z78p8BFoFZMkGG1isM-Xhl9sRB4IT0HObrHyHUuwjHXBEIZhR7_Hei0nnIWthQTJXDp3zShrKxis "chart")
+
+
 Additional information on the modules and other operating modes can be found at the Image Sequencer GitHub site. 
 
  - [https://github.com/publiclab/image-sequencer/tree/main/docs](https://github.com/publiclab/image-sequencer/tree/main/docs)
