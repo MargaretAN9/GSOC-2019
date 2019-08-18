@@ -1,0 +1,28 @@
+{
+    "name": "micro",
+    "description": "Overlays a 5,10  or 50 calibration micron grid over Public Lab Intro Kit Microscope Image",
+    "inputs": { 
+        "x": {
+            "type": "select",
+            "desc": "select 11, 22, 121 for 5, 10, 50 micron vertical grid spacing",
+            "default": 22,
+            "values": [11,22,121]
+
+        },
+        "y": {
+            "type": "select",
+            "desc": "select 11, 22, 121 for 5, 10, 50 micron horizontal grid spacing",
+            "default": 22,
+            "values": [11,22,121]
+
+        },
+        "color":{
+            "type": "string",
+            "desc": "Pick color",
+            "default": "rgba(0,0,0,1)",
+            "id": "color-picker"
+
+          }
+    },
+    "only": "browser" 
+}
